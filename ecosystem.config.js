@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: 'volume-keeper',
-    script: 'volume-keeper.py',
+    script: 'python3 volume-keeper.py',
     watch: true,
     ignore_watch: ['logs'],
     error_file: 'logs/err.log',
